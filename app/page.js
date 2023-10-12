@@ -1,10 +1,11 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <main>
-      <h1>Ecomm Finality</h1>
+      <h1 className='d-flex justify-content-center align-items-center vh-100 text-uppercase'>
+        Ecomm Finality
+      </h1>
     </main>
   );
 }

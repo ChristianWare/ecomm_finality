@@ -1,4 +1,4 @@
-import { CredentialsProvider } from "next-auth/providers";
+import  CredentialsProvider  from "next-auth/providers/credentials";
 import User from "@/models/user";
 import bcrypt from "bcrypt";
 import dbConnect from "./dbConnect";

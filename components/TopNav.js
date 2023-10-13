@@ -23,8 +23,10 @@ export default function TopNav() {
             LOGOUT
           </a>
         </>
+      ) : status === 'loading' ? (
+        <a className="nav-link text-danger">Loading</a>
       ) : (
-        <>
+        
           <div className='d-flex'>
             <Link href='/login' className='nav-link pointer'>
               LOGIN
@@ -33,7 +35,7 @@ export default function TopNav() {
               REGISTER
             </Link>
           </div>
-        </>
+      
       )}
     </nav>
   );
